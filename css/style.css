@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start for price  */
+#price{
+    background: #F8F8F8;
+    padding: 40px;
+    text-align: center;
+}
+.price_details{
+    padding: 10px;
+}
+/* end for price  */
+
+/* start for lite  */
+.prices .lite{
+    background: #11ACD1;
+    color: white;
+    padding: 10px;
+}
+.litle_price{
+    color: #11ACD1;
+}
+.lite_btn{
+    background: #FC6527;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+.lite_btn a{
+    text-decoration: none;
+    color: white;
+}
+/* end for lite  */
+
+/* start for standard  */
+.prices .standard{
+    background: #FB5A4A;
+    color: white;
+    padding: 10px;
+}
+.standard_price{
+    color: #FB5A4A;
+}
+.standard_btn{
+    background: #FC6527;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+.standard_btn a{
+    text-decoration: none;
+    color: white;
+}
+/* end for standard  */
+
+/* start for premium  */
+.prices .premium{
+    background: #F68144;
+    color: white;
+    padding: 10px;
+}
+.premium_price{
+    color: #F68144;
+}
+.premium_btn{
+    background: #FC6527;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+.premium_btn a{
+    text-decoration: none;
+    color: white;
+}
+/* end for premium  */
+
+/* start for customized  */
+.prices .customized{
+    background: #309AA1;
+    color: white;
+    padding: 10px;
+}
+.customized_price{
+    color: #309AA1;
+}
+.customized_btn{
+    background: #FC6527;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+.customized_btn a{
+    text-decoration: none;
+    color: white;
+}
+/* end for customized  */
+
+/* start for prices */
+.prices{
+    background: #FFFFFF;
+}
+/* end for prices  */
