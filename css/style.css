@@ -6,7 +6,7 @@
 /* start for price  */
 #price{
     background: #F8F8F8;
-    padding: 40px;
+    padding: 60px;
     text-align: center;
 }
 .price_details{
@@ -22,6 +22,7 @@
 }
 .litle_price{
     color: #11ACD1;
+    padding-top: 22px;
 }
 .lite_btn{
     background: #FC6527;
@@ -39,7 +40,7 @@
 .prices .standard{
     background: #FB5A4A;
     color: white;
-    padding: 10px;
+    padding: 22px;
 }
 .standard_price{
     color: #FB5A4A;
@@ -54,6 +55,55 @@
     text-decoration: none;
     color: white;
 }
+.standard_tag{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 53% 75%, 48% 100%, 44% 75%, 0% 75%);
+}
+.stnd{
+    position: relative;
+}
+.standard_most_selling{
+    position: absolute;
+    background: #F2412D;
+    z-index: 1;
+    color: white;
+    padding: 10px 199px 10px 20px;
+    bottom: -10px;
+    width: 100%;
+}
+.stnd_icon{
+    position: absolute;
+    top: -47px;
+    z-index: 2;
+    background: #F2412D;
+    border-radius: 50px;
+    padding: 3px;
+}
+.fa-star{
+    color: white;
+}
+@media (max-width: 767px){
+    .stnd_padding{
+        padding-top: 70px;
+    }
+    .standard_most_selling{
+        padding: 10px 25px 10px 20px;
+    }
+}
+@media (max-width: 500px){
+    .standard_most_selling{
+        padding: 10px 25px 10px 20px;
+    }
+}
+@media (max-width: 993px){
+    .standard_most_selling{
+        padding: 10px 190px 10px 20px;
+    }
+}
+@media (max-width: 1200px){
+    .standard_most_selling{
+        padding: 10px 25px 10px 20px;
+    }
+}
 /* end for standard  */
 
 /* start for premium  */
@@ -64,6 +114,7 @@
 }
 .premium_price{
     color: #F68144;
+    padding-top: 22px;
 }
 .premium_btn{
     background: #FC6527;
@@ -85,6 +136,7 @@
 }
 .customized_price{
     color: #309AA1;
+    padding-top: 22px;
 }
 .customized_btn{
     background: #FC6527;
