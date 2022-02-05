@@ -56,7 +56,7 @@
     color: white;
 }
 .standard_tag{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 53% 75%, 48% 100%, 44% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%,53% 75%, 48% 100%, 44% 75%, 0% 75%);
 }
 .stnd{
     position: relative;
